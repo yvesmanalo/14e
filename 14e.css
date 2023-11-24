@@ -1,0 +1,45 @@
+body{
+    height: 3000px;
+}
+.container{
+    position: fixed;
+    top:0;
+    left:0;
+    right:0;
+    height: 63px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 80px;
+}
+.user{
+    display: flex;
+    align-items: center;
+}
+img{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
+p,button{
+    font-family: Arial;
+    font-weight: bold;
+}
+p{
+    font-size: 20px;
+    margin-left: 13px;
+}
+
+button{
+    border-radius: 7px;
+    border-style: none;
+    padding: 10px 11px;
+    font-size:18px;
+}
+.add-btn{
+    background-color: #0866ff;
+    color: white;
+}
+.message-btn{
+    margin-left: 9px;
+}
